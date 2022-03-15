@@ -6,6 +6,11 @@ public class Artista {
     public Artista(String nombreArtista) {
         this.nombreArtista = nombreArtista;
     }
+    
+    public void setNombreArtista(String nombreArtista){
+		this.nombreArtista = nombreArtista;
+		//sergio
+	}
 
     @Override
     public String toString() {
